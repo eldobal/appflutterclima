@@ -1,6 +1,5 @@
 import 'dart:convert';
 import 'dart:io';
-
 import 'package:practicaflutter/data/repository/store_repository.dart';
 import 'package:practicaflutter/model/city.dart';
 import 'package:shared_preferences/shared_preferences.dart';

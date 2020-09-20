@@ -95,7 +95,6 @@ class _CitysPageState extends State<CitysPage> {
 }
 
 class CityItem extends StatelessWidget {
-
   final City city;
 
   const CityItem({Key key, this.city}) : super(key: key);
