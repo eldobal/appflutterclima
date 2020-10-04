@@ -19,6 +19,7 @@ class _HomepageState extends State<Homepage> {
           builder: (_) => CitysPage()
         ),
     );
+    bloc.loadCities();
   }
 
   @override
@@ -37,7 +38,9 @@ class _HomepageState extends State<Homepage> {
           body: bloc.cities.isEmpty? EmptyWidget(
               onTap: () => handleNavigateTap(context),
           )
-              : WeathersWidget(cities: bloc.cities),
+              : WeathersWidget(cities: bloc.cities
+          ,onTap: () => handleNavigateTap(context),
+          ),
 
         );
       }

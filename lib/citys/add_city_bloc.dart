@@ -7,7 +7,6 @@ import 'package:practicaflutter/data/repository/store_repository.dart';
 import 'package:practicaflutter/model/city.dart';
 import 'package:http/http.dart' as http;
 import 'package:practicaflutter/model/weather.dart';
-import 'package:practicaflutter/ui_constants.dart';
 
 class AddCityBloc extends ChangeNotifier{
   List<City> cities = [];
